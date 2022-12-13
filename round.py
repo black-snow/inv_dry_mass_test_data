@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-import pandas as pd
 import sys
 
+import pandas as pd
+
 # round.py path col [col [col [...]]]
-# round to two decimals, expects headers
+# round to three decimals, expects headers
 NUM_DECIMALS = 3
 
 df = pd.read_csv(sys.argv[1])
